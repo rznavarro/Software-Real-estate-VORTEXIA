@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Sidebar from './components/Sidebar';
 import Dashboard from './components/Dashboard';
-import Inventory from './components/Inventory';
+import Properties from './components/Properties';
 import Contacts from './components/Contacts';
 import Team from './components/Team';
 
@@ -12,8 +12,8 @@ function App() {
     switch (activeSection) {
       case 'dashboard':
         return <Dashboard />;
-      case 'inventory':
-        return <Inventory />;
+      case 'properties':
+        return <Properties />;
       case 'contacts':
         return <Contacts />;
       case 'team':
@@ -24,10 +24,12 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-slate-50 flex">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100 flex">
       <Sidebar activeSection={activeSection} onSectionChange={setActiveSection} />
-      <main className="flex-1 p-8">
-        {renderContent()}
+      <main className="flex-1 p-6 overflow-auto">
+        <div className="animate-fade-in">
+          {renderContent()}
+        </div>
       </main>
     </div>
   );
