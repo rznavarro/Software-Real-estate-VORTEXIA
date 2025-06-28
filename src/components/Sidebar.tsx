@@ -66,7 +66,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onSectionChange }) => 
         </div>
       </div>
 
-      {/* Alerta de Oportunidades */}
+      {/* Alerta */}
       <div className="mt-6 p-4 bg-gradient-to-r from-red-600/20 to-red-500/20 border border-red-500/30 rounded-2xl">
         <div className="flex items-center space-x-2 mb-2">
           <div className="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
