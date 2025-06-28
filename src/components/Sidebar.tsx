@@ -20,7 +20,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeSection, onSectionChange }) => 
       <div className="mb-12">
         <div className="flex items-center space-x-4">
           <div className="w-12 h-12 bg-gradient-to-r from-red-600 to-red-500 rounded-2xl flex items-center justify-center">
-            <div className="w-8 h-8 border-2 border-white rounded-full border-dashed animate-spin"></div>
+            <div className="w-8 h-8 border-2 border-white rounded-full border-dashed"></div>
           </div>
           <div>
             <h1 className="text-2xl font-bold text-white">VORTEXIA</h1>

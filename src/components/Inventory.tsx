@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, DollarSign, Eye, Edit } from 'lucide-react';
+import { MapPin, Eye, Edit } from 'lucide-react';
 
 const Inventory = () => {
   const properties = [
@@ -62,7 +62,7 @@ const Inventory = () => {
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         <div className="bg-white rounded-2xl p-6 border-2 border-gray-100">
           <h3 className="font-bold text-gray-900 mb-2">Disponibles</h3>
-          <p className="text-3xl font-bold text-green-600">2</p>
+          <p className="text-3xl font-bold text-green-600">1</p>
           <p className="text-gray-600">Listas para vender</p>
         </div>
         <div className="bg-white rounded-2xl p-6 border-2 border-gray-100">

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Phone, Mail, MessageSquare, Star } from 'lucide-react';
+import { Phone, Mail, MessageSquare } from 'lucide-react';
 
 const Contacts = () => {
   const contacts = [
